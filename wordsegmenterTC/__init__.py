@@ -1,5 +1,4 @@
 import PyICU
-from postaggerTC import Tagger
 
 SEPARATER = " "
 class Segmenter:
