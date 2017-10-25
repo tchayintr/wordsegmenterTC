@@ -10,6 +10,7 @@
 ```
 # Example
 ```python
+    >> from wordsegmenterTC import Segmenter
     >> segmenter = Segmenter()
     >> segmenter.segment("ผมหิวข้าว")
 ```
