@@ -10,8 +10,8 @@
 ```
 # Example
 ```python
-    from wordsegmenterTC import wordsegmenter
-    wordsegmenter("ผมหิวข้าว")
+    >> from wordsegmenterTC import wordsegmenter
+    >> wordsegmenter("ผมหิวข้าว")
 ```
 
 The `wordsegmenter()` function will return a word-segmented line as a string e.g. "ฉัน หิว ข้าว"
