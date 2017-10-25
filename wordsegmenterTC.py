@@ -31,4 +31,3 @@ def wordsegmeter(text):
     return segmenter(text)
 
 
-print(wordsegmeter("ผมหิวข้าว"))

@@ -7,7 +7,7 @@ setup(
     author='Thodsaporn Chay-intr',
     author_email='t.chayintr@icloud.com',
     url='https://github.com/tchayintr/wordsegmenterTC',
-    packages=["wordsegmenter"],
+    packages=["wordsegmenterTC"],
     include_package_data=True,
     license='MIT',
     zip_safe=False,
