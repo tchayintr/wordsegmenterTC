@@ -18,16 +18,17 @@ class Segmenter:
             while(True):
                 currentPos = next(bd)
                 retText += text[lastPos:currentPos]
-                if (self.isThai(text[currentPos - 1])):
-                    if (currentPos < len(text)):
-                        if (self.isThai(text[currentPos])):
-                            # Separater
-                            retText += SEPARATER
-                lastPos = currentPos
+                try:
+                    if (self.isThai(text[currentPos - 1])):
+                        if (currentPos < len(text)):
+                            if (self.isThai(text[currentPos])):
+                                # Separater
+                                retText += SEPARATER
+                    lastPos = currentPos
+                except:
+                    pass
         except StopIteration:
             pass
         return retText
-
-
 
 
